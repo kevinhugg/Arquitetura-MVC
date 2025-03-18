@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../style/style.css"/>
+    <title>Notícias</title>
+
+</head>
+<body>
+    
+    <header>
+
+        <h1>Portal de Notícias</h1>
+        
+        </header>
+
+                
+        <div class="container">
+        
+            <% carregarDados.forEach(function (noticia) { %>
+            <div class="noticia">
+            <h2><%= noticia.titulo %></h2>
+            <p><%= noticia.data %></p>
+            <p><%= noticia.descricao %></p>
+            </div>
+            <% }); %>
+        
+        </div>
+    <!-- <div class="container">
+        <div class="noticia">
+            <h2>Novos avanços na tecnologia de inteligência artificial</h2>
+            <p class="data">11 de março de 2025</p>
+            <p>Pesquisadores estão desenvolvendo novos algoritmos de inteligência artificial que prometem transformar várias indústrias, desde a saúde até a educação. Esses avanços podem mudar a forma como interagimos com máquinas no dia a dia.</p>
+        </div>
+
+        <div class="noticia">
+            <h2>Mercado financeiro sofre com queda nas ações</h2>
+            <p class="data">10 de março de 2025</p>
+            <p>O mercado financeiro global enfrentou um grande revés na última semana, com as ações de várias empresas caindo devido a incertezas econômicas e políticas. Especialistas recomendam cautela aos investidores.</p>
+        </div>
+
+        <div class="noticia">
+            <h2>Nova política ambiental promete reduzir emissão de carbono</h2>
+            <p class="data">9 de março de 2025</p>
+            <p>O governo anunciou uma nova série de políticas para reduzir as emissões de carbono, com o objetivo de atingir as metas estabelecidas para o Acordo de Paris. A medida tem gerado debates entre ambientalistas e industriais.</p>
+        </div>
+    </div> -->
+</body>
+</html>
