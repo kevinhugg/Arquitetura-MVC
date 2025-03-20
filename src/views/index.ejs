@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../style/style.css"/> <!-- Link CSS -->
+    <title>Notícias</title>
+
+</head>
+<body>
+    
+    <header>
+
+        <h1>Portal de Notícias</h1>
+
+    </header>
+
+        <div class="container">
+
+            <!-- Itera por cada notícia do banco de dados através da função e exibe no site -->
+            <% carregarDados.forEach(function (noticia) { %>
+            <div class="noticia">
+                <h2><%= noticia.titulo %></h2>
+                <p><%= noticia.data %></p>
+                <p><%= noticia.descricao %></p>
+            </div>
+            <% }); %>
+
+        </div>
+
+</body>
+</html>

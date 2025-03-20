@@ -1,0 +1,29 @@
+{
+    "noticias":[
+        {
+            "titulo": "Novos avanços na tecnologia de inteligência artificial",
+            "data": "11 de março de 2025",
+            "descricao": "Pesquisadores estão desenvolvendo novos algoritmos de inteligência artificial que prometem transformar várias indústrias, desde a saúde até a educação. Esses avanços podem mudar a forma como interagimos com máquinas no dia a dia."
+        },
+        {
+            "titulo": "Mercado financeiro sofre com queda nas ações",
+            "data": "10 de março de 2025",
+            "descricao": "O mercado financeiro global enfrentou um grande revés na última semana, com as ações de várias empresas caindo devido a incertezas econômicas e políticas. Especialistas recomendam cautela aos investidores."
+        },
+        {
+            "titulo": "Nova política ambiental promete reduzir emissão de carbono",
+            "data": "9 de março de 2025",
+            "descricao": "O governo anunciou uma nova série de políticas para reduzir as emissões de carbono, com o objetivo de atingir as metas estabelecidas para o Acordo de Paris. A medida tem gerado debates entre ambientalistas e industriais."
+        },
+        {
+            "titulo": "AAAAllll Bragaaa saiu da etec (in)felizmente",
+            "data": "11 de março de 2025",
+            "descricao": "Mussum Ipsum, cacilds vidis litro abertis.  Praesent malesuada urna nisi, quis volutpat erat hendrerit non. Nam vulputate dapibus. Admodum accumsan disputationi eu sit. Vide electram sadipscing et per. Interagi no mé, cursus quis, vehicula ac nisi. Mé faiz elementum girarzis, nisi eros vermeio."
+        },
+        {
+            "titulo": "Segunda notícia",
+            "data": "13 de março de 2025",
+            "descricao": "O governo anunciou uma nova série de políticas para reduzir as emissões de carbono, com o objetivo de atingir as metas estabelecidas para o Acordo de Paris. A medida tem gerado debates entre ambientalistas e industriais."
+        }
+    ]
+}
